@@ -13,7 +13,7 @@ const validateResource =
             next();
         } catch (error) {
             console.error(error);
-            return res.sendStatus(422);
+            return res.sendStatus(400);
         }
     };
 
